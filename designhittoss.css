@@ -1,0 +1,64 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-color:white;
+	background-image:url("harita.jpg");
+	background-size:cover;
+	background-repeat:no repeat;
+}
+.logo img{
+	width:250px;
+	height:auto;
+	float:left;
+}
+
+nav{
+	position:above;
+	height:100px;
+	width:100%;
+	text-align:center;
+	line-height:140px;
+	background-color:black;
+	
+
+}
+nav a:hover{
+		background-color:#606060;
+	}
+	
+nav a{
+	font-family: 'Noto Serif KR', sans-serif;
+	color:white;
+	text-decoration:none;
+	font-size:20px;
+	margin-left:20px;
+	padding:12px 12px;
+}
+
+	
+	
+	
+	
+
+
+.section{
+	margin-left:330px;
+	margin-top:200px;
+
+}
+.fot{
+	background-color:black;
+	height:5vh;
+	width:100%;
+	margin-top:500px;
+	padding-top:6px;
+	color:white;
+}
+
+
+
+
+
+

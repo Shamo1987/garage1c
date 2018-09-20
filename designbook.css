@@ -1,0 +1,57 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-color:#5cd65c;
+}
+nav{
+	position:above;
+	height:100px;
+	width:100%;
+	text-align:center;
+	line-height:140px;
+	background-color:black;
+	
+
+}
+
+nav a:hover{
+		background-color:#606060;
+	}
+	
+nav a{
+	font-family: 'Noto Serif KR', sans-serif;
+	color:white;
+	text-decoration:none;
+	font-size:20px;
+	margin-left:20px;
+	padding:12px 12px;
+}
+.logo img{
+	width:250px;
+	height:auto;
+	float:left;
+}
+
+.bokatid{
+	margin-top:30px;
+	margin-left:30px;
+}
+.tack p{
+	font-size:20px;
+	margin-left:30px;
+	
+
+}
+
+
+
+
+.fot{
+	background-color:black;
+	height:5vh;
+	width:100%;
+	margin-top:600px;
+	padding-top:6px;
+	color:white;

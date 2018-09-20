@@ -1,0 +1,178 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-color:white;
+	position:overflow;
+	display:block;
+}
+.logo img{
+	width:250px;
+	height:auto;
+	float:left;
+}
+.resim1 img{
+	width:100%;
+	height:550px;
+	position:absolute;
+	display:block;
+	margin-top:100px;
+
+
+}
+nav{
+	position:above;
+	height:100px;
+	width:100%;
+	text-align:center;
+	line-height:140px;
+	background-color:black;
+	
+
+}
+nav a:hover{
+		background-color:#606060;
+	}
+	
+nav a{
+	font-family: 'Noto Serif KR', sans-serif;
+	color:white;
+	text-decoration:none;
+	font-size:20px;
+	margin-left:20px;
+	padding:12px 12px;
+}
+	
+#outerbox{
+	width:1500px;
+	overflow:hidden;
+	
+}
+#sliderbox{
+ position:relative;   
+ width:3200px;
+ animation-name:slideranimation;
+ animation-duration:10s;
+ animation-iteration-count:infinite;
+}
+	#sliderbox img{
+	float:left;
+}
+
+@keyframes slideranimation{
+	0%
+	{
+		left:0px;
+	}
+	20%
+	{
+		
+		left:0px;
+	}
+	25%
+	{
+		left:-650px;
+		
+	}
+	45%{
+		
+		left:-650px;
+	}
+	50%{
+		
+		left:-1200px;
+	}
+	70%{
+		
+		left:-1200px;
+	}
+	
+	
+	
+	
+}
+
+.anabasliq{
+	font-size:20px;
+	margin-left:35px;
+	
+}
+.anabasliq2{
+	font-size:20px;
+	width:400px;
+	margin-left:40px;
+	
+}
+	.bas2{
+		font-size:18px;
+		margin-left:40px;
+	}
+	.lista{
+		font-size:20px;
+		margin-left:45px;
+		
+	}
+	.bas3{
+		font-size:18px;
+		margin-left:40px;
+		margin-top:20px;
+	}
+	.lista2{
+		font-size:20px;
+		margin-left:45px;
+		
+	}
+	.anabaspol{
+        font-size:18px;
+	    margin-left:35px;
+	
+		
+	}
+	.baspol2{
+		
+		font-size:15px;
+		margin-left:40px;
+		margin-top:20px;
+	}
+	.anabaspol2{
+	font-size:20px;
+	width:600px;
+	margin-left:40px;
+		
+	}
+	.polson{
+		font-size:15px;
+		margin-left:40px;
+		margin-top:20px;
+	}
+	.pollista{
+		font-size:20px;
+		
+		
+	}
+	
+	
+	.sertifikat{
+		position:absolute;
+	    display:block;
+	    margin-top:800px;
+		margin-left:600px;
+		
+	}
+	.fot{
+	background-color:black;
+	height:5vh;
+	width:100%;
+	margin-top:200px;
+	padding-top:6px;
+	color:white;
+	clear:both;
+}
+	
+	
+
+	
+	
+	
+	
